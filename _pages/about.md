@@ -14,11 +14,11 @@ profile:
     - text: Email | 
       url: xuejing.luo@aalto.fi
     - text: Google Scholar | 
-      url: [https://scholar.google.com/citations?user=your-id](https://scholar.google.com/citations?user=f5crX_8AAAAJ&hl=en)
+      url: https://scholar.google.com/citations?user=f5crX_8AAAAJ&hl=en
     - text: GitHub | 
-      url: [https://github.com/your-github](https://github.com/drlxj)
+      url: https://github.com/your-github](https://github.com/drlxj
     - text: LinkedIn | 
-      url: [https://linkedin.com/in/your-linkedin](https://www.linkedin.com/in/xuejing-luo-632a24204/)
+      url: https://linkedin.com/in/your-linkedin](https://www.linkedin.com/in/xuejing-luo-632a24204/
 
 News: true # includes a list of news items
 social: false # includes social icons at the bottom of the page
