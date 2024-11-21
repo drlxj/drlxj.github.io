@@ -18,8 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first-year PhD candidate at [Aalto University](https://www.aalto.fi/en) and [University of Manchester](https://www.manchester.ac.uk/), supervised by Prof. [Antti Oulasvirta](https://users.aalto.fi/~oulasvir/) and Prof. [MingFei Sun](https://mingfeisun.github.io/) under the [ELLIS program](https://ellis.eu/). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I earned my Master's degree in Robotics, Systems, and Control from [ETH Zurich](https://ethz.ch/en.html), where I had the privilege of being supervised by Prof. [Luc Van Gool](https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en) and Prof. [Chrisitan Holz](https://scholar.google.com/citations?user=OfXP9jMAAAAJ&hl=zh-CN). Prior to that, I obtained my Bachelor's degree in Mechanical Engineering from [RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx=1) through the [FTBA](https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/zugangsvoraussetzungen/besonderheiten-internationale-studienint/~cvvm/fast-track-bachelor-admission-ftba/?lidx=1) program.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research experience includes internships with the [Disney Research Studio](https://studios.disneyresearch.com/) led by [Robert Sumner](https://studios.disneyresearch.com/people/bob-sumner/), and at [Frauenhofer IPT](https://www.ipt.fraunhofer.de/en.html). 
