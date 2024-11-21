@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
@@ -8,14 +8,20 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  links:
+    - text: CV | 
+      url: 
+    - text: Email | 
+      url: xuejing.luo@aalto.fi
+    - text: Google Scholar | 
+      url: [https://scholar.google.com/citations?user=your-id](https://scholar.google.com/citations?user=f5crX_8AAAAJ&hl=en)
+    - text: GitHub | 
+      url: [https://github.com/your-github](https://github.com/drlxj)
+    - text: LinkedIn | 
+      url: [https://linkedin.com/in/your-linkedin](https://www.linkedin.com/in/xuejing-luo-632a24204/)
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+News: true # includes a list of news items
+social: false # includes social icons at the bottom of the page
 ---
 
 I am a first-year PhD candidate at [Aalto University](https://www.aalto.fi/en) and [University of Manchester](https://www.manchester.ac.uk/), supervised by Prof. [Antti Oulasvirta](https://users.aalto.fi/~oulasvir/) and Prof. [MingFei Sun](https://mingfeisun.github.io/) under the [ELLIS program](https://ellis.eu/). 
