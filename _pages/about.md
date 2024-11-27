@@ -2,14 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>CV</a> | <a href='https://scholar.google.com/citations?user=f5crX_8AAAAJ&hl=en'>Google scholar</a> | <a href=''>GitHub</a> | <a href='https://linkedin.com/in/your-linkedin](https://www.linkedin.com/in/xuejing-luo-632a24204/'>LinkedIn</a>
+subtitle: <a href='#'>CV</a> | <a href='https://scholar.google.com/citations?user=f5crX_8AAAAJ&hl=en'>Google scholar</a> | <a href='https://github.com/drlxj'>GitHub</a> | <a href='https://linkedin.com/in/your-linkedin](www.linkedin.com/in/xuejing-luo-aalto/'>LinkedIn</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: dr_lxj.jpeg
   image_circular: false # crops the image to make it circular
 
-news: true # includes a list of news items
+News: true # includes a list of news items
 social: false # includes social icons at the bottom of the page
 ---
 
