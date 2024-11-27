@@ -9,7 +9,7 @@ profile:
   image: dr_lxj.jpeg
   image_circular: false # crops the image to make it circular
 
-News: true # includes a list of news items
+news: true # includes a list of news items
 social: false # includes social icons at the bottom of the page
 ---
 
