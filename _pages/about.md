@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>CV</a> | <a href='https://scholar.google.com/citations?user=f5crX_8AAAAJ&hl=en'>Google scholar</a> | <a href='https://github.com/drlxj'>GitHub</a> | <a href='https://linkedin.com/in/your-linkedin](www.linkedin.com/in/xuejing-luo-aalto/'>LinkedIn</a>
+subtitle: <a href='#'>CV</a> | <a href='https://scholar.google.com/citations?user=f5crX_8AAAAJ&hl=en'>Google scholar</a> | <a href='https://github.com/drlxj'>GitHub</a> | <a href='https://www.linkedin.com/in/xuejing-luo-aalto/'>LinkedIn</a>
 
 profile:
   align: right
