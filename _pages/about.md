@@ -11,6 +11,7 @@ profile:
 
 news: true # includes a list of news items
 social: false # includes social icons at the bottom of the page
+selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
 
 I am a first-year PhD candidate at [Aalto University](https://www.aalto.fi/en) and [University of Manchester](https://www.manchester.ac.uk/), supervised by Prof. [Antti Oulasvirta](https://users.aalto.fi/~oulasvir/) and Prof. [MingFei Sun](https://mingfeisun.github.io/) under the [ELLIS program](https://ellis.eu/). 
