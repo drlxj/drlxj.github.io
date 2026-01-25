@@ -24,7 +24,7 @@ The project is structured as follows, focusing on the main components that you w
 ├── 📂 _pages/: contains the pages of the website
 |   └── 📄 404.md: 404 page (page not found)
 ├── 📂 _posts/: contains the blog posts
-├── 📂 _projects/: contains the projects
+├── 📂 projects/: contains custom project pages (HTML files)
 └── 📂 _sass/: contains the SASS files that define the style of the website
     ├── 📄 _base.scss: base style of the website
     ├── 📄 _cv.scss: style of the CV page
@@ -64,7 +64,7 @@ If you want to create blog posts that are not ready to be published, but you wan
 
 ## Creating new projects
 
-You can create new projects by adding new Markdown files in the [\_projects](_projects/) directory. The easiest way to do this is to copy an existing project and modify it.
+You can create new project pages by adding HTML files in the `projects/` directory. Each project should have its own subdirectory with an `index.html` file. For example, `projects/point_and_grasp/assets/index.html` creates a page accessible at `/projects/point-and-grasp/` (configure the permalink in the frontmatter). Make sure to include Jekyll frontmatter at the top of your HTML file with `layout`, `title`, and `permalink` settings.
 
 ## Adding some news
 
