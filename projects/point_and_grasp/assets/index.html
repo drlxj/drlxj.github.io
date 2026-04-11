@@ -150,6 +150,71 @@ permalink: /projects/point-and-grasp/
       height: 60px;
       max-width: 220px;
     }
+
+    .section-title {
+      font-size: 1.65em;
+    }
+  }
+
+  .project-body {
+    margin-top: 48px;
+    padding-top: 36px;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  .project-section {
+    margin-bottom: 48px;
+  }
+
+  .project-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .section-title {
+    font-size: 1.75em;
+    font-weight: 700;
+    color: #333333;
+    margin: 0 0 18px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #333333;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .section-content {
+    font-size: 1.05em;
+    line-height: 1.75;
+    color: #444444;
+    text-align: justify;
+  }
+
+  .section-content p {
+    margin: 0 0 14px 0;
+  }
+
+  .section-content p:last-child {
+    margin-bottom: 0;
+  }
+
+  .demo-video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #f0f0f0;
+  }
+
+  .demo-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 8px;
   }
 </style>
 
@@ -203,5 +268,40 @@ permalink: /projects/point-and-grasp/
       <i class="fas fa-database"></i>
       Dataset
     </a>
+  </div>
+
+  <div class="project-body">
+    <section class="project-section" id="abstract">
+      <h2 class="section-title">Abstract</h2>
+      <div class="section-content">
+        <p>
+          Selecting out-of-reach objects is a fundamental task in mixed reality (MR). 
+          Existing methods rely on a single cue or deterministically fuse multiple cues, 
+          leading to performance degradation when the dominant cue becomes unreliable. 
+          In this work, we introduce a probabilistic cue integration framework that enables 
+          flexible combination of multiple user-generated cues for intent inference. Inspired by natural grasping behavior, 
+          we instantiate the framework with pointing direction and grasp gestures as a new interaction technique, Point&Grasp. 
+          To this end, we collect theOut-of-Reach Grasping (ORG) dataset to train a robust likelihood model of the gestural cue, which captures grasping patterns 
+          not present in existing in-reach datasets. User studies demonstrate that our selection method with cue integration not only improves accuracy and speed 
+          over single-cue baselines, but also remains practically effective compared to state-of-the-art methods across various sources of ambiguity. 
+        </p>
+      </div>
+    </section>
+
+    <section class="project-section" id="demo">
+      <h2 class="section-title">Demo</h2>
+      <div class="section-content">
+        <!--
+          Paste an iframe inside .demo-video-wrapper, e.g. YouTube:
+          <iframe
+            title="Point&amp;Grasp demo video"
+            src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        -->
+        <div class="demo-video-wrapper"></div>
+      </div>
+    </section>
   </div>
 </div>
