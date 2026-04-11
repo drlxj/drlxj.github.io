@@ -9,6 +9,9 @@ permalink: /projects/point-and-grasp/
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
 
 <style>
+  html {
+    scroll-behavior: smooth;
+  }
 
   .project-page {
     max-width: 1200px;
@@ -154,6 +157,23 @@ permalink: /projects/point-and-grasp/
     .section-title {
       font-size: 1.65em;
     }
+
+    .demo-video-row {
+      gap: 14px;
+    }
+
+    .demo-video-item {
+      max-width: none;
+      flex: 1 1 100%;
+    }
+
+    .project-nav-links {
+      gap: 14px;
+    }
+
+    .project-nav-links a {
+      font-size: 0.9em;
+    }
   }
 
   .project-body {
@@ -207,30 +227,108 @@ permalink: /projects/point-and-grasp/
     border-radius: 8px;
   }
 
-  .demo-video-wrapper {
-    position: relative;
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    border-radius: 8px;
-    background: #f0f0f0;
+  .demo-video-row {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
-  .demo-video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    border-radius: 8px;
+  .demo-video-item {
+    flex: 1 1 220px;
+    max-width: 360px;
+    min-width: 0;
   }
+
+  .demo-video-item video {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: block;
+    border-radius: 8px;
+    background: #111111;
+  }
+
+  .demo-video-caption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.98em;
+    font-weight: 600;
+    color: #333333;
+  }
+
+  .project-nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: -24px -20px 20px;
+    padding: 12px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .project-nav-brand {
+    font-weight: 700;
+    font-size: 1.05em;
+    color: #333333;
+    text-decoration: none;
+  }
+
+  .project-nav-brand:hover {
+    color: #0066cc;
+  }
+
+  .project-nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .project-nav-links a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 0.95em;
+    font-weight: 500;
+  }
+
+  .project-nav-links a:hover {
+    text-decoration: underline;
+  }
+
+  #abstract,
+  #demo,
+  #results,
+  #dataset,
+  #bibtex {
+    scroll-margin-top: 56px;
+  }
+
 </style>
 
-<div class="project-page">
+<div class="project-page" id="top">
+  <nav class="project-nav" aria-label="Sections on this page">
+    <a href="#top" class="project-nav-brand">Point&amp;Grasp</a>
+    <ul class="project-nav-links">
+      <li><a href="#abstract">Abstract</a></li>
+      <li><a href="#demo">Demo</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#dataset">Dataset</a></li>
+      <li><a href="#bibtex">BibTeX</a></li>
+    </ul>
+  </nav>
+
   <h1 class="project-title">Point&Grasp: Flexible Selection of Out-of-Reach Objects Through Probabilistic Cue Integration</h1>
 
   <div class="authors">
@@ -258,21 +356,13 @@ permalink: /projects/point-and-grasp/
   <div class="buttons">
     <a href="#" class="button">
       <i class="fas fa-file-pdf"></i>
-      PDF
+      Paper
     </a>
     <a href="#" class="button">
       <i class="ai ai-arxiv"></i>
       ArXiv
     </a>
-    <a href="#" class="button">
-      <i class="fas fa-video"></i>
-      Video
-    </a>
-    <a href="#" class="button">
-      <i class="fas fa-file-alt"></i>
-      Summary
-    </a>
-    <a href="#" class="button">
+    <a href="https://github.com/drlxj/point-and-grasp/tree/main" class="button" target="_blank" rel="noopener noreferrer">
       <i class="fab fa-github"></i>
       Code
     </a>
@@ -316,16 +406,47 @@ permalink: /projects/point-and-grasp/
     <section class="project-section" id="demo">
       <h2 class="section-title">Demo</h2>
       <div class="section-content">
-        <!--
-          Paste an iframe inside .demo-video-wrapper, e.g. YouTube:
-          <iframe
-            title="Point&amp;Grasp demo video"
-            src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        -->
-        <div class="demo-video-wrapper"></div>
+        <div class="demo-video-row">
+          <div class="demo-video-item">
+            <video controls playsinline preload="metadata" title="Point-only demo">
+              <source src="{{ '/projects/point_and_grasp/assets/videos/Point_all-1(1).mov' | relative_url }}" type="video/quicktime" />
+            </video>
+            <div class="demo-video-caption">Point</div>
+          </div>
+          <div class="demo-video-item">
+            <video controls playsinline preload="metadata" title="Grasp-only demo">
+              <source src="{{ '/projects/point_and_grasp/assets/videos/Grasp_all-1.mov' | relative_url }}" type="video/quicktime" />
+            </video>
+            <div class="demo-video-caption">Grasp</div>
+          </div>
+          <div class="demo-video-item">
+            <video controls playsinline preload="metadata" title="Point and Grasp demo">
+              <source src="{{ '/projects/point_and_grasp/assets/videos/Point-and-Grasp_all.mov' | relative_url }}" type="video/quicktime" />
+            </video>
+            <div class="demo-video-caption">Point&amp;Grasp</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-section" id="results">
+      <h2 class="section-title">Results</h2>
+      <div class="section-content">
+        <p>Coming soon.</p>
+      </div>
+    </section>
+
+    <section class="project-section" id="dataset">
+      <h2 class="section-title">Dataset</h2>
+      <div class="section-content">
+        <p>Coming soon.</p>
+      </div>
+    </section>
+
+    <section class="project-section" id="bibtex">
+      <h2 class="section-title">BibTeX</h2>
+      <div class="section-content">
+        <p>Coming soon.</p>
       </div>
     </section>
   </div>
