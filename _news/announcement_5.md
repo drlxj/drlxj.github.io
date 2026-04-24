@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our **CHI 2026** interactive demo builds on [**Point&Grasp**](/projects/point-and-grasp/)—thrilled that it has been accepted as well, alongside the papers. See you at the demo session in Barcelona!
+Our CHI 2026 **interactive demo** builds on [Point&Grasp](/projects/point-and-grasp/) has been accepted as well, alongside the papers. See you at the demo session in Barcelona!
