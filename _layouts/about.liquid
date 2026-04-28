@@ -64,6 +64,11 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    {% if page.mentored_students_and_interns %}
+      <h2>Mentored Students and Interns</h2>
+      {% include mentored_students_and_interns.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">

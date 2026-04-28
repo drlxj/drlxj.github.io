@@ -1,0 +1,13 @@
+<div class="clearfix">
+  {% if site.data.mentored_students_and_interns and site.data.mentored_students_and_interns.size > 0 %}
+    <ul>
+      {% for person in site.data.mentored_students_and_interns %}
+        <li>
+          {{ person.name }}{% if person.affiliation %} ({{ person.affiliation }}){% endif %}{% if person.role %} - {{ person.role }}{% endif %}{% if person.notes %} → {{ person.notes }}{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>Add entries in <code>_data/mentored_students_and_interns.yml</code>.</p>
+  {% endif %}
+</div>

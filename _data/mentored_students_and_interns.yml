@@ -1,0 +1,14 @@
+# - name: Student Name
+#   affiliation: Institution, Year
+#   role: Topic / role
+#   notes:
+
+# - name: Intern Name
+#   affiliation: Company/University, Year
+#   role: Project summary
+#   notes:
+
+- name: Yutong Du
+  affiliation: MSc in Communications Engineering, Aalto University, 02.2025-05.2025
+  role: Research Intern
+  notes: now PhD at Aalto University
